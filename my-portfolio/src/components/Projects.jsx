@@ -16,11 +16,23 @@ const Projects = () => {
         incidunt at maxime esse, nobis, obcaecati quae recusandae, expedita odit
         id magnam debitis nesciunt! Eos repellendus labore quasi iure. Ad.
       </p>
-      <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItem img={barbershopImg} title="Barbershop" />
-        <ProjectItem img={odinRecipeImg} title="Odin Recipe" />
-        <ProjectItem img={recipeImg} title="Recipe" />
-        <ProjectItem img={templateImg} title="Template" />
+      <div className="grid sm:grid-cols-2 gap-12 text-1xl">
+        <ProjectItem
+          img={barbershopImg}
+          title="Barbershop"
+          description="html/css/javascript"
+        />
+        <ProjectItem
+          img={odinRecipeImg}
+          title="Odin Recipe"
+          description="html"
+        />
+        <ProjectItem img={recipeImg} title="Recipe" description="html" />
+        <ProjectItem
+          img={templateImg}
+          title="Template"
+          description="html/css"
+        />
       </div>
     </div>
   );
